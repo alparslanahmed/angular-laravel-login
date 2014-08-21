@@ -80,10 +80,7 @@
         angular.module("angularLoginApp").constant("CSRF_TOKEN", '[[ csrf_token() ]]'); 
         </script>
         <script src="scripts/models.js"></script>
-        <script src="scripts/controllers/anasayfa.js"></script>
         <script src="scripts/controllers/login.js"></script>
-        <script src="scripts/controllers/profil.js"></script>
-        <script src="scripts/controllers/admin.js"></script>
         <!-- endbuild -->
 </body>
 </html>
