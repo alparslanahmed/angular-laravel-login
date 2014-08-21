@@ -53,7 +53,6 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/anasayfa.html',
-        controller: 'AnasayfaCtrl',
         gizli: false
       })
       .when('/login', {
@@ -63,12 +62,10 @@ angular
       })
       .when('/profil', {
         templateUrl: 'views/profil.html',
-        controller: 'ProfilCtrl',
         gizli: true
       })
       .when('/admin', {
         templateUrl: 'views/admin.html',
-        controller: 'AdminCtrl',
         gizli: 2
       })
       .otherwise({
