@@ -28,7 +28,7 @@ angular.module('models', [])
 
                 $http({
                     method: 'GET',
-                    url: '/api/yazi/' + id
+                    url: '/api/logout'
                 })
                     .success(function(data) {
 
